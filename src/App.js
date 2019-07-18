@@ -29,7 +29,7 @@ class App extends Component {
     const { translations } = require(`./translations/${this.state.language}.js`);
 
     return (
-      <div className="App" style={require(`./styles/${this.state.theme}.css`)}>
+      <div className="App">
         <div className="dropdown">
           <button className="btn btn-secondary dropdown-toggle" type="button" id="theme-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             {`${translations.theme}: ${this.state.theme}`}
