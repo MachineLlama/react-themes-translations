@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { getStorage, setStorage } from './storage';
-import './App.css';
 import 'bootstrap';
 
 class App extends Component {
@@ -30,6 +29,8 @@ class App extends Component {
 
     return (
       <div className="App">
+        <h2>Dynamically Change Theme and Language</h2>
+
         <div className="dropdown">
           <button className="btn btn-secondary dropdown-toggle" type="button" id="theme-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             {`${translations.theme}: ${this.state.theme}`}

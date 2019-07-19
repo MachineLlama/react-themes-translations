@@ -26,6 +26,9 @@
     var head = document.head;
     var link = document.createElement("link");
     var theme = localStorage.getItem("theme");
+    if (!theme) {
+      theme = 'lux';
+    }
 
     link.type = "text/css";
     link.rel = "stylesheet";
