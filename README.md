@@ -1,4 +1,4 @@
-A simple React application showcasing multiple themes and translations
+A simple React application showcasing multiple themes and translations (using localstorage)
 
 ![React Themes and Translations GIF](demo/react-translations-themes.gif)
 
